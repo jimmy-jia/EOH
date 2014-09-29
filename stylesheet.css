@@ -64,7 +64,7 @@ body{
 	margin-left:5px;
 	margin: 10 auto;
 	width: auto;
-	height: 400px;
+	height: auto;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -153,13 +153,13 @@ body{
 }
 
 #volunteer{
-	color:#0099FF;
-	text-shadow:1px 1px white;
+	color:white;
+	text-shadow:1px 1px #0099FF;
 	border-radius: 15px;
 	padding-bottom:5px;
 }
 #volunteerb{
-	background-color:white;
+	background-color:#0099FF;
 	filter:alpha(opacity=60);
 	-moz-opacity:0.6;
 	opacity:.45;
@@ -184,9 +184,10 @@ body{
 	}
 	.backdrop{
 		width:90%;
-		background-image:none;
+		background-image:url('bg.jpg');
+		background-size:cover;
 		height:100%;
-		background-color:white;
+
 	}
 	#box1, #box2, #box3, #box4, .front1, .front2, .front3, .front4, .back {
 		margin-left:auto;
@@ -195,6 +196,14 @@ body{
 	#eohid{
 		color:#0099FF;
 	}
+	.eohtop{
+		color:#0099FF;
+		text-shadow:1px 1px grey;
+	}
+	#volunteer{
+		color:#0099FF;
+		text-shadow:1px 1px grey;
+	}
 	#volunteerb{
 		background-color:transparent;
 	}
@@ -202,7 +211,7 @@ body{
 
 @media print, screen and (max-width: 540px) {
 	.backdrop{
-		height:185%;
+		height:100%;
 	}
 	#vid{
 		width:320px;
