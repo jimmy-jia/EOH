@@ -16,7 +16,6 @@ body{
 	background-color:#0099FF;
 	display:flex;
 	justify-content: flex-start;
-
 }
 .navitem{
 	border:3px solid transparent;
@@ -170,6 +169,11 @@ body{
 	z-index: -1;
 	border-radius:12px;
 }
+#vid{
+	width:420px;
+	height:315px;
+}
+
 
 @media print, screen and (max-width: 1000px) {
 	.main{
@@ -200,5 +204,19 @@ body{
 	.backdrop{
 		height:185%;
 	}
+	.nav{
+		flex-direction:column;
+	}
+	#vid{
+		width:320px;
+		height:240px;
+	}
 
 }
+@media print, screen and (max-width: 360px) {
+	.backdrop{
+		height:200%;
+	}
+	.wrapper{
+		width:98%;
+	}
