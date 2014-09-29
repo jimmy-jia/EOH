@@ -148,8 +148,28 @@ body{
     to {background: #007ACC;}
 }
 
+.eohtop{
+	width:min-content;
+	height:min-content;
+}
 
-
+#volunteer{
+	color:#0099FF;
+	text-shadow:1px 1px white;
+	border-radius: 15px;
+	padding-bottom:5px;
+}
+#volunteerb{
+	background-color:white;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	opacity:.45;
+	position:absolute;
+	width:600px;
+	height:300px;
+	z-index: -1;
+	border-radius:12px;
+}
 
 @media print, screen and (max-width: 1000px) {
 	.main{
@@ -168,11 +188,17 @@ body{
 		margin-left:auto;
 		margin-right:auto;
 	}
+	#eohid{
+		color:#0099FF;
+	}
+	#volunteerb{
+		background-color:transparent;
+	}
 }
 
 @media print, screen and (max-width: 540px) {
 	.backdrop{
-		height:180%;
+		height:185%;
 	}
 
 }
