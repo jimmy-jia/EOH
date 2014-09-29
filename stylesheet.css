@@ -204,12 +204,16 @@ body{
 	.backdrop{
 		height:185%;
 	}
-	.nav{
-		flex-direction:column;
-	}
 	#vid{
 		width:320px;
 		height:240px;
+	}
+
+}
+@media print, screen and (max-width: 540px) {
+	#vid{
+		width:240px;
+		height:160px;
 	}
 
 }
@@ -218,5 +222,8 @@ body{
 		height:200%;
 	}
 	.wrapper{
-		width:98%;
+		width:100%;
+	}
+	#eohl{
+		display:none;
 	}
