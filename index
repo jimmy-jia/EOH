@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>EOH 2015</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Engineering Open House 2015">
+		<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="nav">
+				<div class="navitem">
+					<a href="index.html">HOME</a>
+				</div>
+				<div class="navitem">
+					<a href="whois.html">ABOUT EOH</a>
+				</div>
+				<div class="navitem">
+					<a href="volunteer.html">VOLUNTEER</a>
+				</div>
+			</div>
+			<div class="main">
+			</div>
+		</div>
+	</body>
+</html>
