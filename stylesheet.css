@@ -43,6 +43,10 @@ body{
 	background-size:100%;
 	background-repeat: no-repeat;
 	opacity:.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-o-opacity:0.8;
+	-webkit-opacity:0.8;
 	box-shadow:0px 5px 10px grey;
 }
 #eohl {
@@ -160,8 +164,10 @@ body{
 }
 #volunteerb{
 	background-color:#0099FF;
-	filter:alpha(opacity=60);
-	-moz-opacity:0.6;
+	filter:alpha(opacity=45);
+	-moz-opacity:0.45;
+	-o-opacity:0.45;
+	-webkit-opacity:0.45;
 	opacity:.45;
 	position:absolute;
 	width:600px;
@@ -181,12 +187,19 @@ body{
 	}
 	.wrapper{
 		width:90%;
-	}
-	.backdrop{
-		width:90%;
 		background-image:url('bg.JPG');
 		background-size:cover;
+		padding-bottom:10%;
+		box-shadow:0px 5px 10px grey;
+	}
+	.backdrop{
 		height:100%;
+		width:100%;
+		background-image:none;
+		/*width:90%;
+		background-image:url('bg.JPG');
+		background-size:cover;
+		height:100%;*/
 
 	}
 	#box1, #box2, #box3, #box4, .front1, .front2, .front3, .front4, .back {
@@ -210,8 +223,17 @@ body{
 }
 
 @media print, screen and (max-width: 540px) {
+
 	.backdrop{
 		height:100%;
+		width:100%;
+		background-image:none;
+		background-color:white;
+		filter:alpha(opacity=0);
+		-moz-opacity:0;
+		-o-opacity:0;
+		-webkit-opacity:0;
+		opacity:0;
 	}
 	#vid{
 		width:320px;
@@ -219,7 +241,7 @@ body{
 	}
 
 }
-@media print, screen and (max-width: 540px) {
+@media print, screen and (max-width: 400px) {
 	#vid{
 		width:240px;
 		height:160px;
@@ -235,4 +257,7 @@ body{
 	}
 	#eohl{
 		display:none;
+	}
+	.nav{
+		justify-content: center;
 	}
