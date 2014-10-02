@@ -221,7 +221,21 @@ body{
 		background-color:transparent;
 	}
 }
-
+@media print, screen and (max-width: 600px) {
+	#volunteerb{
+		width:80%;
+	}
+	.eohtop{
+		color:white;
+	}
+	#volunteer{
+		color:white;
+	}
+	#eohid{
+		color:white;
+		text-shadow:1px 1px grey;
+	}
+}
 @media print, screen and (max-width: 540px) {
 
 	.backdrop{
@@ -245,7 +259,6 @@ body{
 		width:240px;
 		height:160px;
 	}
-
 }
 @media print, screen and (max-width: 360px) {
 	.backdrop{
